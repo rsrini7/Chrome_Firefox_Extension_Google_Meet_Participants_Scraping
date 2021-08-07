@@ -1,2 +1,2 @@
-# ChromeExtension_Google_Meet_Participants_Scrapping
-Chrome-Extension Google Meet Participants Scrapping
+# ChromeExtension_Google_Meet_Participants_Scraping
+Chrome-Extension Google Meet Participants Scraping
