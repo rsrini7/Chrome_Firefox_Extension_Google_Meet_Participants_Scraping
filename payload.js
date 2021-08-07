@@ -1,4 +1,4 @@
-// send the page title as a chrome message
+// send the participant names as a message
 var browser = browser || chrome
 var getParticipants = function(){
   let names = []
