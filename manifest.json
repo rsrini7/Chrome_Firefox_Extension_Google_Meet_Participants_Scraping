@@ -1,23 +1,19 @@
 {
-	"manifest_version": 2,
+  "manifest_version": 2,
 
-	"name": "Hello World",
-	"description": "A simple page-scraping extension for Chrome",
-	"version": "1.0",
-	"author": "@thomasforth",
+  "name": "Meet Attendance",
+  "description": "Get Names of Google Meet Participants",
+  "version": "1.0",
+  "author": "@rsrini7",
 
-	"background": {
-		"scripts": ["popup.js"],
-		"persistent": true
-	},
+  "background": {
+    "scripts": ["popup.js"],
+    "persistent": true
+  },
 
-	"permissions": [
-        "tabs",
-        "http://*/",
-        "https://*/"
-    ],
-	"browser_action": {
-		"default_icon": "logo.png",
-		"default_popup": "popup.html"
-	}
+  "permissions": ["tabs", "http://*/", "https://*/"],
+  "browser_action": {
+    "default_icon": "logo.png",
+    "default_popup": "popup.html"
+  }
 }
